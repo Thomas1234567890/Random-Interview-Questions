@@ -2,14 +2,24 @@
 //// reverse a string
 
 //// production
-function reverse_string(input_string: string) {
-  let result = "";
-  let len = input_string.length;
-  while (len > 0) {
-    result += input_string.slice(-1);
-    input_string = input_string.slice(0, -1);
-    len--;
-  }
+////old
+// function reverse_string(input_string: string) {
+//   let result = "";
+//   let len = input_string.length;
+//   while (len > 0) {
+//     result += input_string.slice(-1);
+//     input_string = input_string.slice(0, -1);
+//     len--;
+//   }
+//   return result;
+// }
+
+//// convert string to array and use the revers method
+function reverse_string(input_string) {
+  let result = input_string
+    .split("")
+    .reverse()
+    .join("");
   return result;
 }
 
