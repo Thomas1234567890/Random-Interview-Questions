@@ -4,16 +4,17 @@
 //// production
 function reverse_string(input_string: string) {
   let result = "";
-  // while (input_string.length > 0)
-  // {
-  //   console.log(input_string);
-  //   result += input_string.slice(-1)
-  //   input_string.slice(0,-1);
-  // // }
+  let len = input_string.length;
+  while (len > 0) {
+    result += input_string.slice(-1);
+    input_string = input_string.slice(0, -1);
+    len--;
+  }
   return result;
 }
-console.log(reverse_string("abcd"));
+
 //// solution
+// reverse_string("abcd");
 
 //// test
 
@@ -21,4 +22,4 @@ function test_reverse_string(input_string: string, expected_result: string) {
   const result = reverse_string(input_string);
   return result === expected_result ? true : false;
 }
-// test_reverse_string('abcd', 'dcba');
+// console.log(test_reverse_string("abcd", "dcba"));
