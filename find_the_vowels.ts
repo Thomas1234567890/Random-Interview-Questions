@@ -33,4 +33,4 @@ function testcase() {
   console.log(test_vowel_counter("Hello", vowels, 2));
 }
 
-testcase();
+// testcase();
