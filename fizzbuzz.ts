@@ -1,5 +1,5 @@
+export {}
 //// define
-
 //// print numbers 0 - 100
 //// at every multiple of 3 print fizz
 //// at every multiple of 5 print buzz

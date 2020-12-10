@@ -1,6 +1,7 @@
+export {};
+
 //// define
 //// reverse a string
-
 //// production
 ////old
 // function reverse_string(input_string: string) {

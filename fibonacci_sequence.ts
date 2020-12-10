@@ -1,5 +1,5 @@
+export{}
 //// define
-
 //// fibinacci sequence
 //// start with a two number array and a counter
 //// add the last two mumbers in the array and add the answer to the array
