@@ -1,4 +1,4 @@
-# typescript
+# Random Interview Questions
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/typescript-qe18zh)
 
