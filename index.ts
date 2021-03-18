@@ -6,5 +6,6 @@ import "./fizzbuzz";
 import "./multiples_question";
 import "./anagram_question";
 import "./find_the_vowels";
+import "./array_methods"; 
 
 // console.log('index.ts loaded');
