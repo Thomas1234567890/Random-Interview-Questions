@@ -1,4 +1,4 @@
-export {};
+export {vowel_counter};
 ////define
 
 //// return the number of vowels in a string
@@ -29,8 +29,8 @@ function test_vowel_counter(
 }
 
 function testcase() {
-  const vowels = ["a", "e", "i", "o", "u"];
-  console.log(test_vowel_counter("Hello", vowels, 2));
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
+  console.log(test_vowel_counter('Hello', vowels, 2));
 }
 
 // testcase();
