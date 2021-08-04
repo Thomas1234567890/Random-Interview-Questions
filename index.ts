@@ -1,6 +1,6 @@
 import './style.css';
 import { log } from './_utility_methods';
-// import './fibonacci_sequence';
+// import {solution} from './fibonacci_sequence';
 // import './reverse_string';
 // import './fizzbuzz';
 // import './multiples_question';
@@ -16,8 +16,3 @@ import {
 // console.log('index.ts loaded');
 // import './dropdown_button/_style.scss';
 console.clear();
-
-non_repeating('aaabcccd');
-log(answer[0]);
-log(answer);
-log(duplicates);

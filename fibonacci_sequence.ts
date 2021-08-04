@@ -1,4 +1,3 @@
-export{}
 //// define
 //// fibinacci sequence
 //// start with a two number array and a counter
@@ -42,3 +41,4 @@ function test_suite() {
   console.log(test_fib_solo([1, 2], [1, 2, 3]));
 }
 // test_suite();
+export { solution };
