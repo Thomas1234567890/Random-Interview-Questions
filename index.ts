@@ -16,3 +16,8 @@ import {
 // console.log('index.ts loaded');
 // import './dropdown_button/_style.scss';
 console.clear();
+
+const car = { type: 'Fiat', model: '500', color: 'white' };
+
+const { type, model } = car;
+log(model);
