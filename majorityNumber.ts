@@ -1,18 +1,3 @@
-import './style.css';
-import { log } from './_utility_methods';
-// import {solution} from './fibonacci_sequence';
-// import './reverse_string';
-// import './fizzbuzz';
-// import './multiples_question';
-// import './anagram_question';
-// import './find_the_vowels';
-// import './array_methods';
-// import {
-//   _first_recored_instance as answer,
-//   _confirmed_duplicates as duplicates,
-//   get_non_repeating_value as non_repeating
-// } from './non_repeating_values';
-
 // majority number
 // Given a array of numbers, find the number that occurs the most times.
 
