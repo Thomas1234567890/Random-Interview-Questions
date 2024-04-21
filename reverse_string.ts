@@ -17,10 +17,7 @@ export {};
 
 //// convert string to array and use the revers method
 function reverse_string(input_string) {
-  let result = input_string
-    .split("")
-    .reverse()
-    .join("");
+  let result = input_string.split("").reverse().join("");
   return result;
 }
 

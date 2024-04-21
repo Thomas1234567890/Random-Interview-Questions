@@ -1,5 +1,5 @@
-const log = message => {
+const log = (message) => {
   console.log(message);
 };
 
-export{log}
+export { log };

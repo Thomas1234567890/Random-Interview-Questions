@@ -1,4 +1,4 @@
-const log = message => {
+const log = (message) => {
   console.log(message);
 };
 
@@ -15,9 +15,9 @@ const check_if_letter_is_in_array = (_letter, _array) => {
   return _array.includes(_letter) ? true : false;
 };
 
-const get_non_repeating_value = _string => {
+const get_non_repeating_value = (_string) => {
   ///convert sting to Array
-  let _test_array = _string.split('');
+  let _test_array = _string.split("");
 
   for (let i = 0; i < _test_array.length; i++) {
     // log(`${i} ${_test_array[i]}`);
@@ -46,7 +46,7 @@ const get_non_repeating_value = _string => {
 export {
   _first_recored_instance,
   _confirmed_duplicates,
-  get_non_repeating_value
+  get_non_repeating_value,
 };
 // get_non_repeating_value('aaabccc');
 // log(_confirmed_duplicates);

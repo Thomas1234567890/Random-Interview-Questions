@@ -20,17 +20,17 @@ export const majorityNumber = (arrayOfNumbers: number[]): number => {
 
 const testMajorityNumber = (
   arrayOfNumbers: number[],
-  expectedResult: number
+  expectedResult: number,
 ) => {
   const actualResult = majorityNumber(arrayOfNumbers);
   expectedResult === actualResult
     ? console.log(
         `%c test passed with ${actualResult}`,
-        'background:green; color:Black;'
+        "background:green; color:Black;",
       )
     : console.log(
         `%c test failed with ${actualResult}`,
-        'background:red; color:black;'
+        "background:red; color:black;",
       );
 };
 

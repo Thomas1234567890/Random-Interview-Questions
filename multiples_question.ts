@@ -28,15 +28,15 @@ function multiples_of_a_number(multiple_1: number, _number: number) {
 function solution(
   multiple_1: number,
   multiple_2: number,
-  number_to_query: number
+  number_to_query: number,
 ) {
   let multiple_1_sum = multiples_of_a_number(
     multiple_1,
-    number_to_query
+    number_to_query,
   ).reduce((total, curr) => total + curr);
   let multiple_2_sum = multiples_of_a_number(
     multiple_2,
-    number_to_query
+    number_to_query,
   ).reduce((total, curr) => total + curr);
   let result = multiple_1_sum + multiple_2_sum;
   return result;
@@ -48,7 +48,7 @@ function solution(
 function test_multiples_of_a_number(
   multiple_1: number,
   number_to_query: number,
-  expected_result: any
+  expected_result: any,
 ) {
   let result = multiples_of_a_number(multiple_1, number_to_query);
   return result.toString() === expected_result.toString() ? true : false;
@@ -58,7 +58,7 @@ function test_solution(
   multiple_1: number,
   multiple_2: number,
   number_to_query: number,
-  expected_result: number
+  expected_result: number,
 ) {
   let result = solution(multiple_1, multiple_2, number_to_query);
   return result === expected_result ? true : false;

@@ -31,7 +31,7 @@ function solution(counter: number, number_array: Array<number>) {
 
 function test_fib_solo(
   number_array: Array<number>,
-  expected_result: Array<number>
+  expected_result: Array<number>,
 ) {
   const result = fib_solo(number_array);
   return result.toString() === expected_result.toString() ? true : false;

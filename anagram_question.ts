@@ -8,14 +8,8 @@ export {};
 ////production
 //// array method
 function anagram(entered_string_1: string, entered_string_2: string) {
-  let sorted_string_1 = entered_string_1
-    .split("")
-    .sort()
-    .join("");
-  let sorted_string_2 = entered_string_2
-    .split("")
-    .sort()
-    .join("");
+  let sorted_string_1 = entered_string_1.split("").sort().join("");
+  let sorted_string_2 = entered_string_2.split("").sort().join("");
   if (sorted_string_1.length != sorted_string_2.length) return false;
   /// filter
   if (sorted_string_1 !== sorted_string_2) return false;
@@ -29,7 +23,7 @@ function anagram(entered_string_1: string, entered_string_2: string) {
 function test_anagram(
   entered_string_1: string,
   entered_string_2: string,
-  expected_result: boolean
+  expected_result: boolean,
 ) {
   let result = anagram(entered_string_1, entered_string_2);
   return result === expected_result ? true : false;
